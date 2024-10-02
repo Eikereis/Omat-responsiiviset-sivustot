@@ -115,65 +115,35 @@ img:hover {
     align-items: center;
     justify-content: center;
     height: 100%;
-}
-
-.nappi {
-    text-align: center;
-}
-
-.saavutus-table {
-    box-sizing: border-box;
-    display: table;
-    float: none;
-    line-height: normal;
-    position: static;
-    border-collapse: separate;
-    border-spacing: 5px;
-    margin: 30px auto;
-    table-layout: fixed;
-    width: 100%;
-    font-size: 1.2em;
-}
-
-.saavutus-table td {
-    border: 2px solid var(--border-color);
-    padding: 12px;
-    text-align: center;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-}
-
-.saavutus-table p {
-    padding-bottom: 10px;
+    gap: 10px;
 }
 
 .tiedot-grid, .yhteys-grid {
-    display: grid;
-    text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
-    margin: 30px;
-    color: var(--text-color);
-}
+      display: grid;
+      text-align: center;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 30px;
+      margin: 30px;
+      color: var(--text-color);
+  }
 
 .tieto-osio, .yhteys-osio {
-    font-size: 1.8em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--border-color);
-    padding: 30px;
-    box-shadow: 0 0 10px var(--shadow-color);
-    transition: all 0.3s ease;
-}
+      font-size: 1.6em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid var(--border-color);
+      padding: 30px;
+      box-shadow: 0 0 10px var(--shadow-color);
+      transition: all 0.3s ease;
+  }
 
 .tieto-osio:hover, .yhteys-osio:hover {
-    color: var(--primary-color);
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px var(--shadow-color);
-}
-
+      color: var(--primary-color);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px var(--shadow-color);
+  }
 .navbar {
     position: sticky;
     top: 0;
